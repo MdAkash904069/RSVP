@@ -1,0 +1,90 @@
+h1,h2,h3,h4,h5,h6,div,span,body{
+    font-family: 'Open Sans', sans-serif;
+}
+.form-check-input {
+    width: 2em;
+    height: 2em;
+    margin-top: .25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0,0,0,.25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+body {
+    background-color: #ffb4b5;
+}
+
+.height-100 {
+    height: 100vh
+}
+.profile-card{
+    height: 200px;
+    background-color: #e5e4e8;
+}
+
+.card {
+    border: none;
+    box-shadow: 0px 5px 20px 0px #6f166813;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card h6 {
+    color: #6F1667;
+    font-size: 20px
+}
+
+.inputs input {
+    width: 45px;
+    height: 40px;
+    border-radius: 40%;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #564e4e;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 1px solid #8a5685
+}
+
+.validate {
+    border-radius: 20px;
+    background-color: #c5d6e3;
+    border: 1px solid #cfd7dd;
+    color: #000;
+    width: 60%
+}
+
+.content a {
+    color: #D64F4F;
+    transition: all 0.5s
+}
+
+.content a:hover {
+    color: #ccc
+}
+
+@media only screen and (min-width: 600px) {
+    #of-info{
+        display: none !important;
+    }
+}
